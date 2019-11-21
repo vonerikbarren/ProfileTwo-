@@ -1,0 +1,285 @@
+body {
+  background: url(hex_2.jpg) no-repeat 50% 50%;
+
+  background-size: cover;
+  background-color: black;
+
+
+}
+
+.bg-secondary {
+  background-color: rgba(41, 43, 44, .23) !important;
+  z-index: -1;
+}
+
+#bg-secondary2 {
+  background-color: rgba(62, 88, 127, 0.30) !important;
+  z-index: -1;
+}
+
+.bg-info {
+  opacity: 90% !important
+
+}
+
+.bg-light {
+  background-color: rgba(247, 247, 247, .75) !important;
+  z-index: -1;
+}
+
+.bg-dark {
+  background-color: rgba(66, 59, 100, .83) !important;
+  z-index: -1;
+}
+
+
+
+#titleT {
+  position: absolute;
+  top: 46%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 48px;
+  font-family: "Playfair Display";
+  font-weight: lighter;
+  text-shadow: .1px;
+  z-index: 2;
+  padding-bottom: 10px
+  
+  
+}
+
+#titleText {
+  color: black;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: lighter;
+  text-shadow: .1px;
+}
+
+#titleT2 {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 48px;
+  font-family: "Playfair Display";
+  font-weight: lighter;
+  text-shadow: .1px;
+  
+}
+
+h2 {
+  color: black;
+  font-family: "Playfair Display";
+  font-weight: lighter;
+  text-shadow: .1px;
+}
+
+h3 {
+  color: black;
+  font-family: "Playfair Display";
+  font-weight: lighter;
+  text-shadow: .1px;
+}
+
+h4 {
+  color: black;
+  font-family: "Playfair Display";
+  font-weight: lighter;
+  text-shadow: .1px;
+  padding-left: 15px
+}
+
+p {
+  color: rgb(150, 115, 115);
+  font-family: "Playfair Display";
+  font-weight: lighter;
+  text-shadow: .1px;
+}
+
+a {
+  color: black;
+  font-family: "Playfair Display";
+  font-weight: lighter;
+  text-shadow: .1px;
+  padding-left: 15px
+}
+
+
+
+#hexagon {
+  width: 100px;
+  height: 55px;
+  background:#f7e098;
+  position: relative;
+  transform: rotate(27.5deg);
+  transform: translate(-50, -50);
+}
+#hexagon:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid #f7e098;
+}
+#hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid #f7e098;
+}
+
+#hexagon2 {
+  width: 100px;
+  height: 55px;
+  background:#18042e;
+  position: relative;
+  transform: rotate(27.5deg);
+  transform: translate(-50, -50);
+}
+#hexagon2:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid #18042e;
+}
+#hexagon2:after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid #18042e;
+}
+
+#hexagon3 {
+  width: 100px;
+  height: 55px;
+  background:#786465;
+  position: relative;
+  transform: rotate(27.5deg);
+  transform: translate(-50, -50);
+}
+#hexagon3:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid #786465;
+}
+#hexagon3:after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid #786465;
+}
+
+#fontFix {
+
+  color: #fff;
+  font-size: 20px;
+  font-family: "Playfair Display";
+  font-weight: lighter;
+}
+
+#titleT {
+  color: white;
+}
+
+.hover01 img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 img:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.heart {
+  background-color: red;
+  display: inline-block;
+  height: 12.5px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  position: absolute; 
+  left: 46.5%; top: 45%;
+  width: 12.5px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 12.5px;
+  position: absolute;
+  width: 12.5px;
+}
+
+.heart:before {
+  top: -6.25px;
+  left: 0;
+}
+
+.heart:after {
+  left: 6.25px;
+  top: 0;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale( -1 );    
+  }
+  0% {
+    transform: scale( -1 ) 
+      translateX(0%) 
+      translateY(0%);
+  } 
+  0% {
+    transform: scale( 0 ) 
+      translateX(0%) 
+      translateY(0%);
+  }
+}
+
+.heart {
+  animation: heartbeat 1s infinite; 
+}
+
+.background2 {
+  background: url(shattered_abstract_3d_cube-wallpaper-2880x1800.jpg)
+}
+
